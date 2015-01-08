@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F635A8971A5E24DF0073900E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8961A5E24DF0073900E /* main.m */; };
+		F635A89A1A5E24DF0073900E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8991A5E24DF0073900E /* AppDelegate.m */; };
+		F635A89D1A5E24DF0073900E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A89C1A5E24DF0073900E /* ViewController.m */; };
+		F635A8A01A5E24DF0073900E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F635A89E1A5E24DF0073900E /* Main.storyboard */; };
+		F635A8A21A5E24DF0073900E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F635A8A11A5E24DF0073900E /* Images.xcassets */; };
+		F635A8A51A5E24DF0073900E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F635A8A31A5E24DF0073900E /* LaunchScreen.xib */; };
+		F635A8B11A5E24DF0073900E /* iToolBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8B01A5E24DF0073900E /* iToolBoxTests.m */; };
+		F635A8D91A5E262E0073900E /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8C21A5E262E0073900E /* JSONModel.m */; };
+		F635A8DA1A5E262E0073900E /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8C41A5E262E0073900E /* JSONModelArray.m */; };
+		F635A8DB1A5E262E0073900E /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8C61A5E262E0073900E /* JSONModelClassProperty.m */; };
+		F635A8DC1A5E262E0073900E /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8C81A5E262E0073900E /* JSONModelError.m */; };
+		F635A8DD1A5E262E0073900E /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8CB1A5E262E0073900E /* NSArray+JSONModel.m */; };
+		F635A8DE1A5E262E0073900E /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8CF1A5E262E0073900E /* JSONAPI.m */; };
+		F635A8DF1A5E262E0073900E /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8D11A5E262E0073900E /* JSONHTTPClient.m */; };
+		F635A8E01A5E262E0073900E /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8D31A5E262E0073900E /* JSONModel+networking.m */; };
+		F635A8E11A5E262E0073900E /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8D61A5E262E0073900E /* JSONKeyMapper.m */; };
+		F635A8E21A5E262E0073900E /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8D81A5E262E0073900E /* JSONValueTransformer.m */; };
+		F635A8E51A5E27050073900E /* iTBSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8E41A5E27050073900E /* iTBSingleton.m */; };
+		F635A8E81A5E278B0073900E /* iTBSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8E71A5E278B0073900E /* iTBSystemInfo.m */; };
+		F635A8EF1A5E28C40073900E /* iTBFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8EE1A5E28C40073900E /* iTBFoundation.m */; };
+		F635A8F21A5E29350073900E /* iTBDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8F11A5E29340073900E /* iTBDeviceInfo.m */; };
+		F635A8F51A5E2A1B0073900E /* iTBSandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8F41A5E2A1B0073900E /* iTBSandBox.m */; };
+		F635A8F91A5E2BDD0073900E /* NSString+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8F81A5E2BDD0073900E /* NSString+iTool.m */; };
+		F635A8FC1A5E2D090073900E /* NSData+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8FB1A5E2D090073900E /* NSData+iTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F635A8AB1A5E24DF0073900E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F635A8891A5E24DF0073900E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F635A8901A5E24DF0073900E;
+			remoteInfo = iToolBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F635A8911A5E24DF0073900E /* iToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F635A8951A5E24DF0073900E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F635A8961A5E24DF0073900E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F635A8981A5E24DF0073900E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F635A8991A5E24DF0073900E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F635A89B1A5E24DF0073900E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F635A89C1A5E24DF0073900E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F635A89F1A5E24DF0073900E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F635A8A11A5E24DF0073900E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F635A8A41A5E24DF0073900E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F635A8AA1A5E24DF0073900E /* iToolBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iToolBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F635A8AF1A5E24DF0073900E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F635A8B01A5E24DF0073900E /* iToolBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iToolBoxTests.m; sourceTree = "<group>"; };
+		F635A8C11A5E262E0073900E /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		F635A8C21A5E262E0073900E /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		F635A8C31A5E262E0073900E /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		F635A8C41A5E262E0073900E /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		F635A8C51A5E262E0073900E /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		F635A8C61A5E262E0073900E /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		F635A8C71A5E262E0073900E /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		F635A8C81A5E262E0073900E /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		F635A8CA1A5E262E0073900E /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		F635A8CB1A5E262E0073900E /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		F635A8CC1A5E262E0073900E /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		F635A8CE1A5E262E0073900E /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		F635A8CF1A5E262E0073900E /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		F635A8D01A5E262E0073900E /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		F635A8D11A5E262E0073900E /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		F635A8D21A5E262E0073900E /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		F635A8D31A5E262E0073900E /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		F635A8D51A5E262E0073900E /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		F635A8D61A5E262E0073900E /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		F635A8D71A5E262E0073900E /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		F635A8D81A5E262E0073900E /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		F635A8E31A5E27050073900E /* iTBSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTBSingleton.h; sourceTree = "<group>"; };
+		F635A8E41A5E27050073900E /* iTBSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTBSingleton.m; sourceTree = "<group>"; };
+		F635A8E61A5E278B0073900E /* iTBSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTBSystemInfo.h; sourceTree = "<group>"; };
+		F635A8E71A5E278B0073900E /* iTBSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTBSystemInfo.m; sourceTree = "<group>"; };
+		F635A8ED1A5E28C40073900E /* iTBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTBFoundation.h; sourceTree = "<group>"; };
+		F635A8EE1A5E28C40073900E /* iTBFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTBFoundation.m; sourceTree = "<group>"; };
+		F635A8F01A5E29340073900E /* iTBDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTBDeviceInfo.h; sourceTree = "<group>"; };
+		F635A8F11A5E29340073900E /* iTBDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTBDeviceInfo.m; sourceTree = "<group>"; };
+		F635A8F31A5E2A1B0073900E /* iTBSandBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTBSandBox.h; sourceTree = "<group>"; };
+		F635A8F41A5E2A1B0073900E /* iTBSandBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTBSandBox.m; sourceTree = "<group>"; };
+		F635A8F71A5E2BDD0073900E /* NSString+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+iTool.h"; sourceTree = "<group>"; };
+		F635A8F81A5E2BDD0073900E /* NSString+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+iTool.m"; sourceTree = "<group>"; };
+		F635A8FA1A5E2D090073900E /* NSData+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+iTool.h"; sourceTree = "<group>"; };
+		F635A8FB1A5E2D090073900E /* NSData+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+iTool.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F635A88E1A5E24DF0073900E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635A8A71A5E24DF0073900E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F635A8881A5E24DF0073900E = {
+			isa = PBXGroup;
+			children = (
+				F635A8931A5E24DF0073900E /* iToolBox */,
+				F635A8AD1A5E24DF0073900E /* iToolBoxTests */,
+				F635A8921A5E24DF0073900E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F635A8921A5E24DF0073900E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8911A5E24DF0073900E /* iToolBox.app */,
+				F635A8AA1A5E24DF0073900E /* iToolBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F635A8931A5E24DF0073900E /* iToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8BA1A5E25F60073900E /* frameworks */,
+				F635A8981A5E24DF0073900E /* AppDelegate.h */,
+				F635A8991A5E24DF0073900E /* AppDelegate.m */,
+				F635A89B1A5E24DF0073900E /* ViewController.h */,
+				F635A89C1A5E24DF0073900E /* ViewController.m */,
+				F635A89E1A5E24DF0073900E /* Main.storyboard */,
+				F635A8A11A5E24DF0073900E /* Images.xcassets */,
+				F635A8A31A5E24DF0073900E /* LaunchScreen.xib */,
+				F635A8941A5E24DF0073900E /* Supporting Files */,
+			);
+			path = iToolBox;
+			sourceTree = "<group>";
+		};
+		F635A8941A5E24DF0073900E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8951A5E24DF0073900E /* Info.plist */,
+				F635A8961A5E24DF0073900E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F635A8AD1A5E24DF0073900E /* iToolBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8B01A5E24DF0073900E /* iToolBoxTests.m */,
+				F635A8AE1A5E24DF0073900E /* Supporting Files */,
+			);
+			path = iToolBoxTests;
+			sourceTree = "<group>";
+		};
+		F635A8AE1A5E24DF0073900E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8AF1A5E24DF0073900E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F635A8BA1A5E25F60073900E /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8BB1A5E25F60073900E /* System */,
+				F635A8BE1A5E25F60073900E /* Vendor */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		F635A8BB1A5E25F60073900E /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8BC1A5E25F60073900E /* Foundation */,
+				F635A8BD1A5E25F60073900E /* UIKit */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		F635A8BC1A5E25F60073900E /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8E31A5E27050073900E /* iTBSingleton.h */,
+				F635A8E41A5E27050073900E /* iTBSingleton.m */,
+				F635A8E61A5E278B0073900E /* iTBSystemInfo.h */,
+				F635A8E71A5E278B0073900E /* iTBSystemInfo.m */,
+				F635A8ED1A5E28C40073900E /* iTBFoundation.h */,
+				F635A8EE1A5E28C40073900E /* iTBFoundation.m */,
+				F635A8F01A5E29340073900E /* iTBDeviceInfo.h */,
+				F635A8F11A5E29340073900E /* iTBDeviceInfo.m */,
+				F635A8F31A5E2A1B0073900E /* iTBSandBox.h */,
+				F635A8F41A5E2A1B0073900E /* iTBSandBox.m */,
+				F635A8F61A5E2B370073900E /* Category */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		F635A8BD1A5E25F60073900E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		F635A8BE1A5E25F60073900E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8BF1A5E262E0073900E /* JSONModel */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		F635A8BF1A5E262E0073900E /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8C01A5E262E0073900E /* JSONModel */,
+				F635A8C91A5E262E0073900E /* JSONModelCategories */,
+				F635A8CC1A5E262E0073900E /* JSONModelLib.h */,
+				F635A8CD1A5E262E0073900E /* JSONModelNetworking */,
+				F635A8D41A5E262E0073900E /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		F635A8C01A5E262E0073900E /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8C11A5E262E0073900E /* JSONModel.h */,
+				F635A8C21A5E262E0073900E /* JSONModel.m */,
+				F635A8C31A5E262E0073900E /* JSONModelArray.h */,
+				F635A8C41A5E262E0073900E /* JSONModelArray.m */,
+				F635A8C51A5E262E0073900E /* JSONModelClassProperty.h */,
+				F635A8C61A5E262E0073900E /* JSONModelClassProperty.m */,
+				F635A8C71A5E262E0073900E /* JSONModelError.h */,
+				F635A8C81A5E262E0073900E /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		F635A8C91A5E262E0073900E /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8CA1A5E262E0073900E /* NSArray+JSONModel.h */,
+				F635A8CB1A5E262E0073900E /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		F635A8CD1A5E262E0073900E /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8CE1A5E262E0073900E /* JSONAPI.h */,
+				F635A8CF1A5E262E0073900E /* JSONAPI.m */,
+				F635A8D01A5E262E0073900E /* JSONHTTPClient.h */,
+				F635A8D11A5E262E0073900E /* JSONHTTPClient.m */,
+				F635A8D21A5E262E0073900E /* JSONModel+networking.h */,
+				F635A8D31A5E262E0073900E /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		F635A8D41A5E262E0073900E /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8D51A5E262E0073900E /* JSONKeyMapper.h */,
+				F635A8D61A5E262E0073900E /* JSONKeyMapper.m */,
+				F635A8D71A5E262E0073900E /* JSONValueTransformer.h */,
+				F635A8D81A5E262E0073900E /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		F635A8F61A5E2B370073900E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F635A8F71A5E2BDD0073900E /* NSString+iTool.h */,
+				F635A8F81A5E2BDD0073900E /* NSString+iTool.m */,
+				F635A8FA1A5E2D090073900E /* NSData+iTool.h */,
+				F635A8FB1A5E2D090073900E /* NSData+iTool.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F635A8901A5E24DF0073900E /* iToolBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F635A8B41A5E24DF0073900E /* Build configuration list for PBXNativeTarget "iToolBox" */;
+			buildPhases = (
+				F635A88D1A5E24DF0073900E /* Sources */,
+				F635A88E1A5E24DF0073900E /* Frameworks */,
+				F635A88F1A5E24DF0073900E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iToolBox;
+			productName = iToolBox;
+			productReference = F635A8911A5E24DF0073900E /* iToolBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F635A8A91A5E24DF0073900E /* iToolBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F635A8B71A5E24DF0073900E /* Build configuration list for PBXNativeTarget "iToolBoxTests" */;
+			buildPhases = (
+				F635A8A61A5E24DF0073900E /* Sources */,
+				F635A8A71A5E24DF0073900E /* Frameworks */,
+				F635A8A81A5E24DF0073900E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F635A8AC1A5E24DF0073900E /* PBXTargetDependency */,
+			);
+			name = iToolBoxTests;
+			productName = iToolBoxTests;
+			productReference = F635A8AA1A5E24DF0073900E /* iToolBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F635A8891A5E24DF0073900E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = liuhongnian;
+				TargetAttributes = {
+					F635A8901A5E24DF0073900E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F635A8A91A5E24DF0073900E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F635A8901A5E24DF0073900E;
+					};
+				};
+			};
+			buildConfigurationList = F635A88C1A5E24DF0073900E /* Build configuration list for PBXProject "iToolBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F635A8881A5E24DF0073900E;
+			productRefGroup = F635A8921A5E24DF0073900E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F635A8901A5E24DF0073900E /* iToolBox */,
+				F635A8A91A5E24DF0073900E /* iToolBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F635A88F1A5E24DF0073900E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F635A8A01A5E24DF0073900E /* Main.storyboard in Resources */,
+				F635A8A51A5E24DF0073900E /* LaunchScreen.xib in Resources */,
+				F635A8A21A5E24DF0073900E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635A8A81A5E24DF0073900E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F635A88D1A5E24DF0073900E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F635A8F21A5E29350073900E /* iTBDeviceInfo.m in Sources */,
+				F635A8EF1A5E28C40073900E /* iTBFoundation.m in Sources */,
+				F635A8DF1A5E262E0073900E /* JSONHTTPClient.m in Sources */,
+				F635A8DA1A5E262E0073900E /* JSONModelArray.m in Sources */,
+				F635A8DC1A5E262E0073900E /* JSONModelError.m in Sources */,
+				F635A8E51A5E27050073900E /* iTBSingleton.m in Sources */,
+				F635A8DE1A5E262E0073900E /* JSONAPI.m in Sources */,
+				F635A8E21A5E262E0073900E /* JSONValueTransformer.m in Sources */,
+				F635A89D1A5E24DF0073900E /* ViewController.m in Sources */,
+				F635A8D91A5E262E0073900E /* JSONModel.m in Sources */,
+				F635A8FC1A5E2D090073900E /* NSData+iTool.m in Sources */,
+				F635A8E11A5E262E0073900E /* JSONKeyMapper.m in Sources */,
+				F635A8F91A5E2BDD0073900E /* NSString+iTool.m in Sources */,
+				F635A8E01A5E262E0073900E /* JSONModel+networking.m in Sources */,
+				F635A8DD1A5E262E0073900E /* NSArray+JSONModel.m in Sources */,
+				F635A8F51A5E2A1B0073900E /* iTBSandBox.m in Sources */,
+				F635A89A1A5E24DF0073900E /* AppDelegate.m in Sources */,
+				F635A8E81A5E278B0073900E /* iTBSystemInfo.m in Sources */,
+				F635A8971A5E24DF0073900E /* main.m in Sources */,
+				F635A8DB1A5E262E0073900E /* JSONModelClassProperty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635A8A61A5E24DF0073900E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F635A8B11A5E24DF0073900E /* iToolBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F635A8AC1A5E24DF0073900E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F635A8901A5E24DF0073900E /* iToolBox */;
+			targetProxy = F635A8AB1A5E24DF0073900E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F635A89E1A5E24DF0073900E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F635A89F1A5E24DF0073900E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F635A8A31A5E24DF0073900E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F635A8A41A5E24DF0073900E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F635A8B21A5E24DF0073900E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F635A8B31A5E24DF0073900E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F635A8B51A5E24DF0073900E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iToolBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F635A8B61A5E24DF0073900E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iToolBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F635A8B81A5E24DF0073900E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iToolBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iToolBox.app/iToolBox";
+			};
+			name = Debug;
+		};
+		F635A8B91A5E24DF0073900E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iToolBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iToolBox.app/iToolBox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F635A88C1A5E24DF0073900E /* Build configuration list for PBXProject "iToolBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F635A8B21A5E24DF0073900E /* Debug */,
+				F635A8B31A5E24DF0073900E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F635A8B41A5E24DF0073900E /* Build configuration list for PBXNativeTarget "iToolBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F635A8B51A5E24DF0073900E /* Debug */,
+				F635A8B61A5E24DF0073900E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F635A8B71A5E24DF0073900E /* Build configuration list for PBXNativeTarget "iToolBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F635A8B81A5E24DF0073900E /* Debug */,
+				F635A8B91A5E24DF0073900E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F635A8891A5E24DF0073900E /* Project object */;
+}
