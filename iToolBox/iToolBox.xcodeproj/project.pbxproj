@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F63080C01A64EE7500B835AA /* UIImage+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F63080BF1A64EE7500B835AA /* UIImage+iTool.m */; };
+		F63080C31A64EF4A00B835AA /* UIButton+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F63080C21A64EF4A00B835AA /* UIButton+iTool.m */; };
 		F635A8971A5E24DF0073900E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8961A5E24DF0073900E /* main.m */; };
 		F635A89A1A5E24DF0073900E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8991A5E24DF0073900E /* AppDelegate.m */; };
 		F635A89D1A5E24DF0073900E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A89C1A5E24DF0073900E /* ViewController.m */; };
@@ -44,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F63080BE1A64EE7500B835AA /* UIImage+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+iTool.h"; sourceTree = "<group>"; };
+		F63080BF1A64EE7500B835AA /* UIImage+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+iTool.m"; sourceTree = "<group>"; };
+		F63080C11A64EF4A00B835AA /* UIButton+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+iTool.h"; sourceTree = "<group>"; };
+		F63080C21A64EF4A00B835AA /* UIButton+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+iTool.m"; sourceTree = "<group>"; };
 		F635A8911A5E24DF0073900E /* iToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F635A8951A5E24DF0073900E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F635A8961A5E24DF0073900E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -112,6 +118,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F63080BD1A64EE0500B835AA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F63080BE1A64EE7500B835AA /* UIImage+iTool.h */,
+				F63080BF1A64EE7500B835AA /* UIImage+iTool.m */,
+				F63080C11A64EF4A00B835AA /* UIButton+iTool.h */,
+				F63080C21A64EF4A00B835AA /* UIButton+iTool.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		F635A8881A5E24DF0073900E = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +228,7 @@
 		F635A8BD1A5E25F60073900E /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				F63080BD1A64EE0500B835AA /* Category */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -411,9 +429,11 @@
 				F635A8DD1A5E262E0073900E /* NSArray+JSONModel.m in Sources */,
 				F635A8F51A5E2A1B0073900E /* iTBSandBox.m in Sources */,
 				F635A89A1A5E24DF0073900E /* AppDelegate.m in Sources */,
+				F63080C01A64EE7500B835AA /* UIImage+iTool.m in Sources */,
 				F635A8E81A5E278B0073900E /* iTBSystemInfo.m in Sources */,
 				F635A8971A5E24DF0073900E /* main.m in Sources */,
 				F635A8DB1A5E262E0073900E /* JSONModelClassProperty.m in Sources */,
+				F63080C31A64EF4A00B835AA /* UIButton+iTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +624,7 @@
 				F635A8B61A5E24DF0073900E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F635A8B71A5E24DF0073900E /* Build configuration list for PBXNativeTarget "iToolBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -612,6 +633,7 @@
 				F635A8B91A5E24DF0073900E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
