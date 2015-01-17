@@ -33,6 +33,11 @@
 		F635A8F51A5E2A1B0073900E /* iTBSandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8F41A5E2A1B0073900E /* iTBSandBox.m */; };
 		F635A8F91A5E2BDD0073900E /* NSString+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8F81A5E2BDD0073900E /* NSString+iTool.m */; };
 		F635A8FC1A5E2D090073900E /* NSData+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8FB1A5E2D090073900E /* NSData+iTool.m */; };
+		F6F6A9CB1A6A045E006AFEC1 /* NSArray+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F6A9CA1A6A045E006AFEC1 /* NSArray+iTool.m */; };
+		F6F6A9CE1A6A04F3006AFEC1 /* NSMutableArray+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F6A9CD1A6A04F3006AFEC1 /* NSMutableArray+iTool.m */; };
+		F6F6AA0A1A6A6904006AFEC1 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F6AA051A6A6904006AFEC1 /* SVIndefiniteAnimatedView.m */; };
+		F6F6AA0B1A6A6904006AFEC1 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F6F6AA071A6A6904006AFEC1 /* SVProgressHUD.bundle */; };
+		F6F6AA0C1A6A6904006AFEC1 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F6AA091A6A6904006AFEC1 /* SVProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +103,16 @@
 		F635A8F81A5E2BDD0073900E /* NSString+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+iTool.m"; sourceTree = "<group>"; };
 		F635A8FA1A5E2D090073900E /* NSData+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+iTool.h"; sourceTree = "<group>"; };
 		F635A8FB1A5E2D090073900E /* NSData+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+iTool.m"; sourceTree = "<group>"; };
+		F6F6A9C91A6A045E006AFEC1 /* NSArray+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+iTool.h"; sourceTree = "<group>"; };
+		F6F6A9CA1A6A045E006AFEC1 /* NSArray+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+iTool.m"; sourceTree = "<group>"; };
+		F6F6A9CC1A6A04F3006AFEC1 /* NSMutableArray+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+iTool.h"; sourceTree = "<group>"; };
+		F6F6A9CD1A6A04F3006AFEC1 /* NSMutableArray+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+iTool.m"; sourceTree = "<group>"; };
+		F6F6AA041A6A6904006AFEC1 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		F6F6AA051A6A6904006AFEC1 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		F6F6AA061A6A6904006AFEC1 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		F6F6AA071A6A6904006AFEC1 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		F6F6AA081A6A6904006AFEC1 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		F6F6AA091A6A6904006AFEC1 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +251,7 @@
 		F635A8BE1A5E25F60073900E /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				F6F6AA031A6A6904006AFEC1 /* SVProgressHUD */,
 				F635A8BF1A5E262E0073900E /* JSONModel */,
 			);
 			path = Vendor;
@@ -308,8 +324,25 @@
 				F635A8F81A5E2BDD0073900E /* NSString+iTool.m */,
 				F635A8FA1A5E2D090073900E /* NSData+iTool.h */,
 				F635A8FB1A5E2D090073900E /* NSData+iTool.m */,
+				F6F6A9C91A6A045E006AFEC1 /* NSArray+iTool.h */,
+				F6F6A9CA1A6A045E006AFEC1 /* NSArray+iTool.m */,
+				F6F6A9CC1A6A04F3006AFEC1 /* NSMutableArray+iTool.h */,
+				F6F6A9CD1A6A04F3006AFEC1 /* NSMutableArray+iTool.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		F6F6AA031A6A6904006AFEC1 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F6F6AA041A6A6904006AFEC1 /* SVIndefiniteAnimatedView.h */,
+				F6F6AA051A6A6904006AFEC1 /* SVIndefiniteAnimatedView.m */,
+				F6F6AA061A6A6904006AFEC1 /* SVProgressHUD-Prefix.pch */,
+				F6F6AA071A6A6904006AFEC1 /* SVProgressHUD.bundle */,
+				F6F6AA081A6A6904006AFEC1 /* SVProgressHUD.h */,
+				F6F6AA091A6A6904006AFEC1 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +428,7 @@
 				F635A8A01A5E24DF0073900E /* Main.storyboard in Resources */,
 				F635A8A51A5E24DF0073900E /* LaunchScreen.xib in Resources */,
 				F635A8A21A5E24DF0073900E /* Images.xcassets in Resources */,
+				F6F6AA0B1A6A6904006AFEC1 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,13 +446,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F6AA0A1A6A6904006AFEC1 /* SVIndefiniteAnimatedView.m in Sources */,
 				F635A8F21A5E29350073900E /* iTBDeviceInfo.m in Sources */,
 				F635A8EF1A5E28C40073900E /* iTBFoundation.m in Sources */,
 				F635A8DF1A5E262E0073900E /* JSONHTTPClient.m in Sources */,
 				F635A8DA1A5E262E0073900E /* JSONModelArray.m in Sources */,
 				F635A8DC1A5E262E0073900E /* JSONModelError.m in Sources */,
+				F6F6A9CE1A6A04F3006AFEC1 /* NSMutableArray+iTool.m in Sources */,
 				F635A8E51A5E27050073900E /* iTBSingleton.m in Sources */,
 				F635A8DE1A5E262E0073900E /* JSONAPI.m in Sources */,
+				F6F6AA0C1A6A6904006AFEC1 /* SVProgressHUD.m in Sources */,
 				F635A8E21A5E262E0073900E /* JSONValueTransformer.m in Sources */,
 				F635A89D1A5E24DF0073900E /* ViewController.m in Sources */,
 				F635A8D91A5E262E0073900E /* JSONModel.m in Sources */,
@@ -429,6 +466,7 @@
 				F635A8DD1A5E262E0073900E /* NSArray+JSONModel.m in Sources */,
 				F635A8F51A5E2A1B0073900E /* iTBSandBox.m in Sources */,
 				F635A89A1A5E24DF0073900E /* AppDelegate.m in Sources */,
+				F6F6A9CB1A6A045E006AFEC1 /* NSArray+iTool.m in Sources */,
 				F63080C01A64EE7500B835AA /* UIImage+iTool.m in Sources */,
 				F635A8E81A5E278B0073900E /* iTBSystemInfo.m in Sources */,
 				F635A8971A5E24DF0073900E /* main.m in Sources */,
