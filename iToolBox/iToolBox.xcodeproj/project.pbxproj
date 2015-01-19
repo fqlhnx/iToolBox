@@ -33,6 +33,7 @@
 		F635A8F51A5E2A1B0073900E /* iTBSandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8F41A5E2A1B0073900E /* iTBSandBox.m */; };
 		F635A8F91A5E2BDD0073900E /* NSString+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8F81A5E2BDD0073900E /* NSString+iTool.m */; };
 		F635A8FC1A5E2D090073900E /* NSData+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8FB1A5E2D090073900E /* NSData+iTool.m */; };
+		F66BFD081A6792DE00BEB4AC /* NSArray+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F66BFD071A6792DE00BEB4AC /* NSArray+iTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		F635A8F81A5E2BDD0073900E /* NSString+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+iTool.m"; sourceTree = "<group>"; };
 		F635A8FA1A5E2D090073900E /* NSData+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+iTool.h"; sourceTree = "<group>"; };
 		F635A8FB1A5E2D090073900E /* NSData+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+iTool.m"; sourceTree = "<group>"; };
+		F66BFD061A6792DE00BEB4AC /* NSArray+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+iTool.h"; sourceTree = "<group>"; };
+		F66BFD071A6792DE00BEB4AC /* NSArray+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+iTool.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,6 +311,8 @@
 				F635A8F81A5E2BDD0073900E /* NSString+iTool.m */,
 				F635A8FA1A5E2D090073900E /* NSData+iTool.h */,
 				F635A8FB1A5E2D090073900E /* NSData+iTool.m */,
+				F66BFD061A6792DE00BEB4AC /* NSArray+iTool.h */,
+				F66BFD071A6792DE00BEB4AC /* NSArray+iTool.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -429,6 +434,7 @@
 				F635A8DD1A5E262E0073900E /* NSArray+JSONModel.m in Sources */,
 				F635A8F51A5E2A1B0073900E /* iTBSandBox.m in Sources */,
 				F635A89A1A5E24DF0073900E /* AppDelegate.m in Sources */,
+				F66BFD081A6792DE00BEB4AC /* NSArray+iTool.m in Sources */,
 				F63080C01A64EE7500B835AA /* UIImage+iTool.m in Sources */,
 				F635A8E81A5E278B0073900E /* iTBSystemInfo.m in Sources */,
 				F635A8971A5E24DF0073900E /* main.m in Sources */,
