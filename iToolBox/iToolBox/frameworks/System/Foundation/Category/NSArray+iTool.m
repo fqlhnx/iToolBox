@@ -2,14 +2,13 @@
 //  NSArray+iTool.m
 //  iToolBox
 //
-//  Created by liuhongnian on 15/1/15.
+//  Created by liuhongnian on 15-1-17.
 //  Copyright (c) 2015年 liuhongnian. All rights reserved.
 //
 
 #import "NSArray+iTool.h"
 
 @implementation NSArray (iTool)
-
 
 - (id)safeObjectAtIndex:(NSUInteger)index
 {
@@ -37,5 +36,4 @@
     else
         return error.localizedDescription;
 }
-
 @end

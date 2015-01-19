@@ -1,5 +1,5 @@
 //
-//  NSArray+iTool.h
+//  NSMutableArray+iTool.h
 //  iToolBox
 //
 //  Created by liuhongnian on 15-1-17.
@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (iTool)
+@interface NSMutableArray (iTool)
 
 - (id)safeObjectAtIndex:(NSUInteger)index;
 
-- (NSString *)arrayToJson;
-
+- (void)moveObjectFromIndex:(NSUInteger)from
+                    toIndex:(NSUInteger)to;
 @end
