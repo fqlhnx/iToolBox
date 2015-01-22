@@ -31,6 +31,7 @@
 		F62A545E1A6CA8EB0015FFC9 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F62A54441A6CA8EB0015FFC9 /* SVIndefiniteAnimatedView.m */; };
 		F62A545F1A6CA8EB0015FFC9 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F62A54461A6CA8EB0015FFC9 /* SVProgressHUD.bundle */; };
 		F62A54601A6CA8EB0015FFC9 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F62A54481A6CA8EB0015FFC9 /* SVProgressHUD.m */; };
+		F62A54631A6CA96F0015FFC9 /* UIView+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F62A54621A6CA96F0015FFC9 /* UIView+iTool.m */; };
 		F635A8971A5E24DF0073900E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8961A5E24DF0073900E /* main.m */; };
 		F635A89A1A5E24DF0073900E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8991A5E24DF0073900E /* AppDelegate.m */; };
 		F635A89D1A5E24DF0073900E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A89C1A5E24DF0073900E /* ViewController.m */; };
@@ -100,6 +101,8 @@
 		F62A54461A6CA8EB0015FFC9 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		F62A54471A6CA8EB0015FFC9 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		F62A54481A6CA8EB0015FFC9 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		F62A54611A6CA96F0015FFC9 /* UIView+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+iTool.h"; sourceTree = "<group>"; };
+		F62A54621A6CA96F0015FFC9 /* UIView+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+iTool.m"; sourceTree = "<group>"; };
 		F635A8911A5E24DF0073900E /* iToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F635A8951A5E24DF0073900E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F635A8961A5E24DF0073900E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -199,6 +202,8 @@
 				F62A54241A6CA8EB0015FFC9 /* UIButton+iTool.m */,
 				F62A54251A6CA8EB0015FFC9 /* UIImage+iTool.h */,
 				F62A54261A6CA8EB0015FFC9 /* UIImage+iTool.m */,
+				F62A54611A6CA96F0015FFC9 /* UIView+iTool.h */,
+				F62A54621A6CA96F0015FFC9 /* UIView+iTool.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -466,6 +471,7 @@
 				F62A54511A6CA8EB0015FFC9 /* iTBSystemInfo.m in Sources */,
 				F62A54541A6CA8EB0015FFC9 /* JSONModel.m in Sources */,
 				F62A54571A6CA8EB0015FFC9 /* JSONModelError.m in Sources */,
+				F62A54631A6CA96F0015FFC9 /* UIView+iTool.m in Sources */,
 				F635A89A1A5E24DF0073900E /* AppDelegate.m in Sources */,
 				F62A545B1A6CA8EB0015FFC9 /* JSONModel+networking.m in Sources */,
 				F62A544D1A6CA8EB0015FFC9 /* iTBDeviceInfo.m in Sources */,
