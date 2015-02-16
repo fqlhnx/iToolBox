@@ -66,6 +66,38 @@
     }
 }
 
+- (NSString *)SHA256
+{
+    if(self == nil || [self length] == 0)
+        return nil;
+    
+    unsigned char digest[CC_SHA256_DIGEST_LENGTH], i;
+    CC_SHA256([self UTF8String], (int)[self lengthOfBytesUsingEncoding:NSUTF8StringEncoding], digest);
+    NSMutableString *ms = [NSMutableString string];
+    for(i=0;i<CC_SHA256_DIGEST_LENGTH;i++)
+    {
+        [ms appendFormat: @"%02x", (int)(digest[i])];
+    }
+    return [ms copy];
+
+}
+
+- (NSString *)SHA512
+{
+    if(self == nil || [self length] == 0)
+        return nil;
+    
+    unsigned char digest[CC_SHA512_DIGEST_LENGTH], i;
+    CC_SHA512([self UTF8String], (int)[self lengthOfBytesUsingEncoding:NSUTF8StringEncoding], digest);
+    NSMutableString *ms = [NSMutableString string];
+    for(i=0;i<CC_SHA512_DIGEST_LENGTH;i++)
+    {
+        [ms appendFormat: @"%02x", (int)(digest[i])];
+    }
+    return [ms copy];
+}
+
+
 - (NSData *)MD5Data
 {
     //to do

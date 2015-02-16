@@ -130,6 +130,18 @@
     return NO;
 }
 
++ (BOOL)isiPod
+{
+    NSString *deviceType = [UIDevice currentDevice].model;
+    if ([deviceType rangeOfString:@"iPod" options:NSCaseInsensitiveSearch].length > 0)
+    {
+        return YES;
+    }
+    
+    return NO;
+}
+
+
 
 
 @end

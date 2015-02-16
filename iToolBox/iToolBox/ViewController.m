@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+#import "iTBLog.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    UIImage *image = [[UIImage alloc] init];
+    
+    
+    iTBLog(image);
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
 }
 
 - (void)didReceiveMemoryWarning {

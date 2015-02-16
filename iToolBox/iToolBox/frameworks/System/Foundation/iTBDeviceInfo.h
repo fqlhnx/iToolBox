@@ -42,6 +42,7 @@ typedef NS_ENUM(NSInteger, DeviceSize){
 
 + (BOOL)isDevicePhone;
 + (BOOL)isDevicePad;
++ (BOOL)isiPod;
 
 
 @end

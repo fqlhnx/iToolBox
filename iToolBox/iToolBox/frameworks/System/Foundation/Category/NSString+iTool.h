@@ -17,6 +17,8 @@
 @property (nonatomic, readonly) NSData *				MD5Data;//todo
 
 @property (nonatomic, readonly) NSString *				SHA1;
+@property (nonatomic,readonly) NSString * SHA256;
+@property (nonatomic,readonly) NSString * SHA512;
 
 - (BOOL)isEmpty;
 - (BOOL)isNotEmpty;

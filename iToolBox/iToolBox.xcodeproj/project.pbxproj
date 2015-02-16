@@ -39,6 +39,12 @@
 		F635A8A21A5E24DF0073900E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F635A8A11A5E24DF0073900E /* Images.xcassets */; };
 		F635A8A51A5E24DF0073900E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F635A8A31A5E24DF0073900E /* LaunchScreen.xib */; };
 		F635A8B11A5E24DF0073900E /* iToolBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8B01A5E24DF0073900E /* iToolBoxTests.m */; };
+		F65A44A11A899C93001E3E4A /* NSDictionary+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F65A44A01A899C93001E3E4A /* NSDictionary+iTool.m */; };
+		F65A44A41A89A87B001E3E4A /* UIWindow+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F65A44A31A89A87B001E3E4A /* UIWindow+iTool.m */; };
+		F65A44A61A89AD0B001E3E4A /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F65A44A51A89AD0B001E3E4A /* success@3x.png */; };
+		F65A44A91A89C59A001E3E4A /* iTBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F65A44A81A89C59A001E3E4A /* iTBLog.m */; };
+		F686F1611A81BD69006697CC /* UIColor+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F686F1601A81BD69006697CC /* UIColor+iTool.m */; };
+		F686F1641A81C667006697CC /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = F686F1631A81C667006697CC /* UIView+Positioning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +122,18 @@
 		F635A8AA1A5E24DF0073900E /* iToolBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iToolBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F635A8AF1A5E24DF0073900E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F635A8B01A5E24DF0073900E /* iToolBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iToolBoxTests.m; sourceTree = "<group>"; };
+		F65A449C1A899AA2001E3E4A /* iToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToolKit.h; sourceTree = "<group>"; };
+		F65A449F1A899C93001E3E4A /* NSDictionary+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+iTool.h"; sourceTree = "<group>"; };
+		F65A44A01A899C93001E3E4A /* NSDictionary+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+iTool.m"; sourceTree = "<group>"; };
+		F65A44A21A89A87B001E3E4A /* UIWindow+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+iTool.h"; sourceTree = "<group>"; };
+		F65A44A31A89A87B001E3E4A /* UIWindow+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+iTool.m"; sourceTree = "<group>"; };
+		F65A44A51A89AD0B001E3E4A /* success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "success@3x.png"; path = "frameworks/Vendor/SVProgressHUD/SVProgressHUD.bundle/success@3x.png"; sourceTree = "<group>"; };
+		F65A44A71A89C59A001E3E4A /* iTBLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTBLog.h; sourceTree = "<group>"; };
+		F65A44A81A89C59A001E3E4A /* iTBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTBLog.m; sourceTree = "<group>"; };
+		F686F15F1A81BD69006697CC /* UIColor+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iTool.h"; sourceTree = "<group>"; };
+		F686F1601A81BD69006697CC /* UIColor+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iTool.m"; sourceTree = "<group>"; };
+		F686F1621A81C667006697CC /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		F686F1631A81C667006697CC /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +159,7 @@
 			children = (
 				F62A540C1A6CA8EB0015FFC9 /* System */,
 				F62A54271A6CA8EB0015FFC9 /* Vendor */,
+				F65A449C1A899AA2001E3E4A /* iToolKit.h */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";
@@ -168,6 +187,8 @@
 				F62A541E1A6CA8EB0015FFC9 /* iTBSingleton.m */,
 				F62A541F1A6CA8EB0015FFC9 /* iTBSystemInfo.h */,
 				F62A54201A6CA8EB0015FFC9 /* iTBSystemInfo.m */,
+				F65A44A71A89C59A001E3E4A /* iTBLog.h */,
+				F65A44A81A89C59A001E3E4A /* iTBLog.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -183,6 +204,8 @@
 				F62A54141A6CA8EB0015FFC9 /* NSMutableArray+iTool.m */,
 				F62A54151A6CA8EB0015FFC9 /* NSString+iTool.h */,
 				F62A54161A6CA8EB0015FFC9 /* NSString+iTool.m */,
+				F65A449F1A899C93001E3E4A /* NSDictionary+iTool.h */,
+				F65A44A01A899C93001E3E4A /* NSDictionary+iTool.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -204,6 +227,12 @@
 				F62A54261A6CA8EB0015FFC9 /* UIImage+iTool.m */,
 				F62A54611A6CA96F0015FFC9 /* UIView+iTool.h */,
 				F62A54621A6CA96F0015FFC9 /* UIView+iTool.m */,
+				F686F15F1A81BD69006697CC /* UIColor+iTool.h */,
+				F686F1601A81BD69006697CC /* UIColor+iTool.m */,
+				F686F1621A81C667006697CC /* UIView+Positioning.h */,
+				F686F1631A81C667006697CC /* UIView+Positioning.m */,
+				F65A44A21A89A87B001E3E4A /* UIWindow+iTool.h */,
+				F65A44A31A89A87B001E3E4A /* UIWindow+iTool.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -311,6 +340,7 @@
 		F635A8931A5E24DF0073900E /* iToolBox */ = {
 			isa = PBXGroup;
 			children = (
+				F65A44A51A89AD0B001E3E4A /* success@3x.png */,
 				F62A540B1A6CA8EB0015FFC9 /* frameworks */,
 				F635A8981A5E24DF0073900E /* AppDelegate.h */,
 				F635A8991A5E24DF0073900E /* AppDelegate.m */,
@@ -432,6 +462,7 @@
 			files = (
 				F635A8A01A5E24DF0073900E /* Main.storyboard in Resources */,
 				F635A8A51A5E24DF0073900E /* LaunchScreen.xib in Resources */,
+				F65A44A61A89AD0B001E3E4A /* success@3x.png in Resources */,
 				F635A8A21A5E24DF0073900E /* Images.xcassets in Resources */,
 				F62A545F1A6CA8EB0015FFC9 /* SVProgressHUD.bundle in Resources */,
 			);
@@ -455,6 +486,7 @@
 				F62A545A1A6CA8EB0015FFC9 /* JSONHTTPClient.m in Sources */,
 				F62A544C1A6CA8EB0015FFC9 /* NSString+iTool.m in Sources */,
 				F62A544F1A6CA8EB0015FFC9 /* iTBSandBox.m in Sources */,
+				F65A44A91A89C59A001E3E4A /* iTBLog.m in Sources */,
 				F62A54581A6CA8EB0015FFC9 /* NSArray+JSONModel.m in Sources */,
 				F62A545C1A6CA8EB0015FFC9 /* JSONKeyMapper.m in Sources */,
 				F62A544A1A6CA8EB0015FFC9 /* NSData+iTool.m in Sources */,
@@ -462,9 +494,12 @@
 				F62A54491A6CA8EB0015FFC9 /* NSArray+iTool.m in Sources */,
 				F62A54601A6CA8EB0015FFC9 /* SVProgressHUD.m in Sources */,
 				F62A54551A6CA8EB0015FFC9 /* JSONModelArray.m in Sources */,
+				F686F1641A81C667006697CC /* UIView+Positioning.m in Sources */,
+				F65A44A11A899C93001E3E4A /* NSDictionary+iTool.m in Sources */,
 				F635A89D1A5E24DF0073900E /* ViewController.m in Sources */,
 				F62A54591A6CA8EB0015FFC9 /* JSONAPI.m in Sources */,
 				F62A545D1A6CA8EB0015FFC9 /* JSONValueTransformer.m in Sources */,
+				F65A44A41A89A87B001E3E4A /* UIWindow+iTool.m in Sources */,
 				F62A54521A6CA8EB0015FFC9 /* UIButton+iTool.m in Sources */,
 				F62A54501A6CA8EB0015FFC9 /* iTBSingleton.m in Sources */,
 				F62A54561A6CA8EB0015FFC9 /* JSONModelClassProperty.m in Sources */,
@@ -472,6 +507,7 @@
 				F62A54541A6CA8EB0015FFC9 /* JSONModel.m in Sources */,
 				F62A54571A6CA8EB0015FFC9 /* JSONModelError.m in Sources */,
 				F62A54631A6CA96F0015FFC9 /* UIView+iTool.m in Sources */,
+				F686F1611A81BD69006697CC /* UIColor+iTool.m in Sources */,
 				F635A89A1A5E24DF0073900E /* AppDelegate.m in Sources */,
 				F62A545B1A6CA8EB0015FFC9 /* JSONModel+networking.m in Sources */,
 				F62A544D1A6CA8EB0015FFC9 /* iTBDeviceInfo.m in Sources */,
