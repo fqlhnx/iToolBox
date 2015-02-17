@@ -39,6 +39,7 @@
 		F635A8A21A5E24DF0073900E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F635A8A11A5E24DF0073900E /* Images.xcassets */; };
 		F635A8A51A5E24DF0073900E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F635A8A31A5E24DF0073900E /* LaunchScreen.xib */; };
 		F635A8B11A5E24DF0073900E /* iToolBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8B01A5E24DF0073900E /* iToolBoxTests.m */; };
+		F6483D2E1A91D57A00708E81 /* UIBarButtonItem+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F6483D2D1A91D57A00708E81 /* UIBarButtonItem+iTool.m */; };
 		F65A44A11A899C93001E3E4A /* NSDictionary+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F65A44A01A899C93001E3E4A /* NSDictionary+iTool.m */; };
 		F65A44A41A89A87B001E3E4A /* UIWindow+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F65A44A31A89A87B001E3E4A /* UIWindow+iTool.m */; };
 		F65A44A61A89AD0B001E3E4A /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F65A44A51A89AD0B001E3E4A /* success@3x.png */; };
@@ -122,6 +123,8 @@
 		F635A8AA1A5E24DF0073900E /* iToolBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iToolBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F635A8AF1A5E24DF0073900E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F635A8B01A5E24DF0073900E /* iToolBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iToolBoxTests.m; sourceTree = "<group>"; };
+		F6483D2C1A91D57A00708E81 /* UIBarButtonItem+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+iTool.h"; sourceTree = "<group>"; };
+		F6483D2D1A91D57A00708E81 /* UIBarButtonItem+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+iTool.m"; sourceTree = "<group>"; };
 		F65A449C1A899AA2001E3E4A /* iToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToolKit.h; sourceTree = "<group>"; };
 		F65A449F1A899C93001E3E4A /* NSDictionary+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+iTool.h"; sourceTree = "<group>"; };
 		F65A44A01A899C93001E3E4A /* NSDictionary+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+iTool.m"; sourceTree = "<group>"; };
@@ -233,6 +236,8 @@
 				F686F1631A81C667006697CC /* UIView+Positioning.m */,
 				F65A44A21A89A87B001E3E4A /* UIWindow+iTool.h */,
 				F65A44A31A89A87B001E3E4A /* UIWindow+iTool.m */,
+				F6483D2C1A91D57A00708E81 /* UIBarButtonItem+iTool.h */,
+				F6483D2D1A91D57A00708E81 /* UIBarButtonItem+iTool.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -500,6 +505,7 @@
 				F62A54591A6CA8EB0015FFC9 /* JSONAPI.m in Sources */,
 				F62A545D1A6CA8EB0015FFC9 /* JSONValueTransformer.m in Sources */,
 				F65A44A41A89A87B001E3E4A /* UIWindow+iTool.m in Sources */,
+				F6483D2E1A91D57A00708E81 /* UIBarButtonItem+iTool.m in Sources */,
 				F62A54521A6CA8EB0015FFC9 /* UIButton+iTool.m in Sources */,
 				F62A54501A6CA8EB0015FFC9 /* iTBSingleton.m in Sources */,
 				F62A54561A6CA8EB0015FFC9 /* JSONModelClassProperty.m in Sources */,

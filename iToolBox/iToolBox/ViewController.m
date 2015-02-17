@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 #import "iTBLog.h"
+
+#import "UIBarButtonItem+iTool.h"
 @interface ViewController ()
 
 @end
@@ -22,7 +24,18 @@
     UIImage *image = [[UIImage alloc] init];
     
     
-    iTBLog(image);
+//    iTBLog(image);
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc]it_initWithImage:[UIImage imageNamed:@"success"] style:UIBarButtonItemStyleDone handler:^(id sender) {
+        
+        NSLog(@"89");
+    }];
+    
+    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] it_initWithTitle:@"奥迪" style:UIBarButtonItemStyleDone handler:^(id sender) {
+        NSLog(@"奥迪");
+    }];
+    self.navigationItem.leftBarButtonItem = leftItem;
+    
+    self.navigationItem.rightBarButtonItem = rightItem;
     
 }
 
