@@ -35,6 +35,9 @@
 - (BOOL)isWebURL;
 - (BOOL)isIPAddress;
 
+- (NSString*)encodeToBase64;
+- (NSString *)decodeBase64;
+
 #if (TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR)
 - (CGSize)sizeWithFont:(UIFont *)font byWidth:(CGFloat)width;
 #endif

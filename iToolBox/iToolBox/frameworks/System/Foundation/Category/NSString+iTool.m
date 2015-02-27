@@ -295,5 +295,19 @@
 }
 #endif
 
+- (NSString *)encodeToBase64
+{
+    NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
+    return [data base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
+    
+}
+
+- (NSString *)decodeBase64
+{
+    NSData *data = [[NSData alloc] initWithBase64EncodedString:self options:NSDataBase64DecodingIgnoreUnknownCharacters];
+    return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    
+}
+
 
 @end
