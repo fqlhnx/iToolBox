@@ -24,4 +24,12 @@
     return image;
 }
 
++ (UIImage *)imageFromMainBundleFile:(NSString *)fileName
+{
+    NSString *filePath = [[NSBundle mainBundle]pathForResource:fileName ofType:@"png"];
+    UIImage *image = [self imageWithContentsOfFile:filePath];
+    
+    return image;
+}
+
 @end
