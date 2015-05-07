@@ -31,4 +31,12 @@
             [self insertObject:obj atIndex:to];
     }
 }
+
+- (void)it_saveAddObject:(id)obj
+{
+    if (obj) {
+        [self addObject:obj];
+    }
+}
+
 @end

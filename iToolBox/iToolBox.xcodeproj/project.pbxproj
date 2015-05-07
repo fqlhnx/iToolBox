@@ -79,6 +79,7 @@
 		F65A44A41A89A87B001E3E4A /* UIWindow+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F65A44A31A89A87B001E3E4A /* UIWindow+iTool.m */; };
 		F65A44A61A89AD0B001E3E4A /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F65A44A51A89AD0B001E3E4A /* success@3x.png */; };
 		F65A44A91A89C59A001E3E4A /* iTBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F65A44A81A89C59A001E3E4A /* iTBLog.m */; };
+		F65C94AE1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C94AD1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.m */; };
 		F686F1611A81BD69006697CC /* UIColor+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F686F1601A81BD69006697CC /* UIColor+iTool.m */; };
 		F686F1641A81C667006697CC /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = F686F1631A81C667006697CC /* UIView+Positioning.m */; };
 /* End PBXBuildFile section */
@@ -240,6 +241,8 @@
 		F65A44A51A89AD0B001E3E4A /* success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "success@3x.png"; path = "frameworks/Vendor/SVProgressHUD/SVProgressHUD.bundle/success@3x.png"; sourceTree = "<group>"; };
 		F65A44A71A89C59A001E3E4A /* iTBLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTBLog.h; sourceTree = "<group>"; };
 		F65A44A81A89C59A001E3E4A /* iTBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTBLog.m; sourceTree = "<group>"; };
+		F65C94AC1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+iTool.h"; sourceTree = "<group>"; };
+		F65C94AD1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+iTool.m"; sourceTree = "<group>"; };
 		F686F15F1A81BD69006697CC /* UIColor+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iTool.h"; sourceTree = "<group>"; };
 		F686F1601A81BD69006697CC /* UIColor+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iTool.m"; sourceTree = "<group>"; };
 		F686F1621A81C667006697CC /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
@@ -319,6 +322,8 @@
 				F62A54161A6CA8EB0015FFC9 /* NSString+iTool.m */,
 				F65A449F1A899C93001E3E4A /* NSDictionary+iTool.h */,
 				F65A44A01A899C93001E3E4A /* NSDictionary+iTool.m */,
+				F65C94AC1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.h */,
+				F65C94AD1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -784,6 +789,7 @@
 				F62A544D1A6CA8EB0015FFC9 /* iTBDeviceInfo.m in Sources */,
 				F63A59811AA7F694006FF4F6 /* YTKBatchRequest.m in Sources */,
 				F63A596B1AA7F632006FF4F6 /* UIWebView+AFNetworking.m in Sources */,
+				F65C94AE1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.m in Sources */,
 				F63A59861AA7F694006FF4F6 /* YTKNetworkConfig.m in Sources */,
 				F63A59881AA7F694006FF4F6 /* YTKRequest.m in Sources */,
 				F635A8971A5E24DF0073900E /* main.m in Sources */,

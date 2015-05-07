@@ -13,9 +13,9 @@ void ExtendNSLog(const char *file, int lineNumber, const char *functionName, NSS
 @interface iTBLog : NSObject
 
 #ifdef DEBUG
-#define iTBLog(args ...) ExtendNSLog(__FILE__,__LINE__,__PRETTY_FUNCTION__,args);
+#define iTBDebugLog(...) ExtendNSLog(__FILE__,__LINE__,__PRETTY_FUNCTION__,__VA_ARGS__);
 #else
-#define iTBLog(args ...)
+#define iTBDebugLog(...)
 #endif
 
 @end

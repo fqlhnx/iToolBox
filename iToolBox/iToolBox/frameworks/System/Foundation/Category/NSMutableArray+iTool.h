@@ -14,4 +14,7 @@
 
 - (void)moveObjectFromIndex:(NSUInteger)from
                     toIndex:(NSUInteger)to;
+
+- (void)it_saveAddObject:(id)obj;
+
 @end

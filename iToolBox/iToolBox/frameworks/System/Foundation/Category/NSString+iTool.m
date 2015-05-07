@@ -309,5 +309,39 @@
     
 }
 
+- (NSString *)it_URLEncode
+{
+    return [self it_URLEncodeUsingEncoding:NSUTF8StringEncoding];
+}
+
+- (NSString *)it_URLEncodeUsingEncoding:(NSStringEncoding)encoding
+{
+    return (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(NULL, (__bridge CFStringRef)self, NULL, (CFStringRef)@"!*'\"();:@&=+$,/?%#[]% ", CFStringConvertNSStringEncodingToEncoding(encoding));
+}
+
+- (NSString *)it_urlDecode
+{
+    return [self it_urlDecodeUsingEncoding:NSUTF8StringEncoding];
+}
+
+- (NSString *)it_urlDecodeUsingEncoding:(NSStringEncoding)encoding
+{
+    return (__bridge_transfer NSString *)CFURLCreateStringByReplacingPercentEscapesUsingEncoding(NULL,
+                                                                                                 (__bridge CFStringRef)self,CFSTR(""),CFStringConvertNSStringEncodingToEncoding(encoding));
+}
+
+@end
+
+@implementation NSString (iTTrims)
+
+- (NSString *)it_trimmingWhitespace
+{
+    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+}
+
+- (NSString *)it_trimmingWhitespaceAndNewlines
+{
+    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+}
 
 @end
