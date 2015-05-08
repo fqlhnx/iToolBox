@@ -32,7 +32,7 @@
     }
 }
 
-- (void)it_saveAddObject:(id)obj
+- (void)it_safeAddObject:(id)obj
 {
     if (obj) {
         [self addObject:obj];

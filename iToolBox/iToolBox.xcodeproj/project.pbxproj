@@ -80,6 +80,8 @@
 		F65A44A61A89AD0B001E3E4A /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F65A44A51A89AD0B001E3E4A /* success@3x.png */; };
 		F65A44A91A89C59A001E3E4A /* iTBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F65A44A81A89C59A001E3E4A /* iTBLog.m */; };
 		F65C94AE1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C94AD1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.m */; };
+		F669FEDF1AFC51E3005AE59D /* NSBundle+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F669FEDE1AFC51E3005AE59D /* NSBundle+iTool.m */; };
+		F669FF191AFC5A51005AE59D /* NSDate+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F669FF181AFC5A51005AE59D /* NSDate+iTool.m */; };
 		F686F1611A81BD69006697CC /* UIColor+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F686F1601A81BD69006697CC /* UIColor+iTool.m */; };
 		F686F1641A81C667006697CC /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = F686F1631A81C667006697CC /* UIView+Positioning.m */; };
 /* End PBXBuildFile section */
@@ -243,6 +245,10 @@
 		F65A44A81A89C59A001E3E4A /* iTBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTBLog.m; sourceTree = "<group>"; };
 		F65C94AC1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+iTool.h"; sourceTree = "<group>"; };
 		F65C94AD1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+iTool.m"; sourceTree = "<group>"; };
+		F669FEDD1AFC51E3005AE59D /* NSBundle+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+iTool.h"; sourceTree = "<group>"; };
+		F669FEDE1AFC51E3005AE59D /* NSBundle+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+iTool.m"; sourceTree = "<group>"; };
+		F669FF171AFC5A51005AE59D /* NSDate+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+iTool.h"; sourceTree = "<group>"; };
+		F669FF181AFC5A51005AE59D /* NSDate+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+iTool.m"; sourceTree = "<group>"; };
 		F686F15F1A81BD69006697CC /* UIColor+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iTool.h"; sourceTree = "<group>"; };
 		F686F1601A81BD69006697CC /* UIColor+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iTool.m"; sourceTree = "<group>"; };
 		F686F1621A81C667006697CC /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
@@ -324,6 +330,10 @@
 				F65A44A01A899C93001E3E4A /* NSDictionary+iTool.m */,
 				F65C94AC1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.h */,
 				F65C94AD1AFB5CB200E5BA86 /* NSMutableDictionary+iTool.m */,
+				F669FEDD1AFC51E3005AE59D /* NSBundle+iTool.h */,
+				F669FEDE1AFC51E3005AE59D /* NSBundle+iTool.m */,
+				F669FF171AFC5A51005AE59D /* NSDate+iTool.h */,
+				F669FF181AFC5A51005AE59D /* NSDate+iTool.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -736,6 +746,7 @@
 				F63A595F1AA7F632006FF4F6 /* AFSecurityPolicy.m in Sources */,
 				F62A545A1A6CA8EB0015FFC9 /* JSONHTTPClient.m in Sources */,
 				F62A544C1A6CA8EB0015FFC9 /* NSString+iTool.m in Sources */,
+				F669FEDF1AFC51E3005AE59D /* NSBundle+iTool.m in Sources */,
 				F62A544F1A6CA8EB0015FFC9 /* iTBSandBox.m in Sources */,
 				F63A59301AA7EE58006FF4F6 /* UIImageView+iTool.m in Sources */,
 				F65A44A91A89C59A001E3E4A /* iTBLog.m in Sources */,
@@ -781,6 +792,7 @@
 				F62A54571A6CA8EB0015FFC9 /* JSONModelError.m in Sources */,
 				F62A54631A6CA96F0015FFC9 /* UIView+iTool.m in Sources */,
 				F63A59641AA7F632006FF4F6 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				F669FF191AFC5A51005AE59D /* NSDate+iTool.m in Sources */,
 				F63A59611AA7F632006FF4F6 /* AFURLRequestSerialization.m in Sources */,
 				F63A595E1AA7F632006FF4F6 /* AFNetworkReachabilityManager.m in Sources */,
 				F686F1611A81BD69006697CC /* UIColor+iTool.m in Sources */,
