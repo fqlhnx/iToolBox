@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  thank BFKit
+ */
+
 @interface UIView (iTool)
 
 /**
@@ -20,5 +24,13 @@
 - (void)createBordersWithColor:(UIColor *)color
               withCornerRadius:(CGFloat)radius
                       andWidth:(CGFloat)width;
+
+/**
+ *  Set the corner radius of UIView
+ *
+ *  @param radius Radius value
+ */
+- (void)itb_setCornerRadius:(CGFloat)radius;
+
 
 @end

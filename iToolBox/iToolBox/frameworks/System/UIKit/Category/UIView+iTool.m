@@ -26,4 +26,11 @@
     CGColorSpaceRelease(space);
 }
 
+
+- (void)itb_setCornerRadius:(CGFloat)radius
+{
+    self.layer.cornerRadius = radius;
+    [self.layer setMasksToBounds:YES];
+}
+
 @end
