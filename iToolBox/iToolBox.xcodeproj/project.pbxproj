@@ -39,6 +39,7 @@
 		F635A8A21A5E24DF0073900E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F635A8A11A5E24DF0073900E /* Images.xcassets */; };
 		F635A8A51A5E24DF0073900E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F635A8A31A5E24DF0073900E /* LaunchScreen.xib */; };
 		F635A8B11A5E24DF0073900E /* iToolBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F635A8B01A5E24DF0073900E /* iToolBoxTests.m */; };
+		F63A30DA1BB9329D00A3A84A /* UIApplication+iTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F63A30D91BB9329D00A3A84A /* UIApplication+iTool.m */; };
 		F63A59231AA7E7E5006FF4F6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F63A59191AA7E7E5006FF4F6 /* FMDatabase.m */; };
 		F63A59241AA7E7E5006FF4F6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F63A591B1AA7E7E5006FF4F6 /* FMDatabaseAdditions.m */; };
 		F63A59251AA7E7E5006FF4F6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F63A591D1AA7E7E5006FF4F6 /* FMDatabasePool.m */; };
@@ -161,6 +162,8 @@
 		F635A8AA1A5E24DF0073900E /* iToolBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iToolBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F635A8AF1A5E24DF0073900E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F635A8B01A5E24DF0073900E /* iToolBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iToolBoxTests.m; sourceTree = "<group>"; };
+		F63A30D81BB9329D00A3A84A /* UIApplication+iTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+iTool.h"; sourceTree = "<group>"; };
+		F63A30D91BB9329D00A3A84A /* UIApplication+iTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+iTool.m"; sourceTree = "<group>"; };
 		F63A59181AA7E7E5006FF4F6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		F63A59191AA7E7E5006FF4F6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		F63A591A1AA7E7E5006FF4F6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -365,6 +368,8 @@
 				F6483D2D1A91D57A00708E81 /* UIBarButtonItem+iTool.m */,
 				F63A592E1AA7EE58006FF4F6 /* UIImageView+iTool.h */,
 				F63A592F1AA7EE58006FF4F6 /* UIImageView+iTool.m */,
+				F63A30D81BB9329D00A3A84A /* UIApplication+iTool.h */,
+				F63A30D91BB9329D00A3A84A /* UIApplication+iTool.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -791,6 +796,7 @@
 				F62A54541A6CA8EB0015FFC9 /* JSONModel.m in Sources */,
 				F62A54571A6CA8EB0015FFC9 /* JSONModelError.m in Sources */,
 				F62A54631A6CA96F0015FFC9 /* UIView+iTool.m in Sources */,
+				F63A30DA1BB9329D00A3A84A /* UIApplication+iTool.m in Sources */,
 				F63A59641AA7F632006FF4F6 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				F669FF191AFC5A51005AE59D /* NSDate+iTool.m in Sources */,
 				F63A59611AA7F632006FF4F6 /* AFURLRequestSerialization.m in Sources */,
