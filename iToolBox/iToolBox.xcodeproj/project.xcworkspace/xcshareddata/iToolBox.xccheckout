@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>3E186480-E8AB-466A-910E-B8B0E51DC513</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>iToolBox</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>3B787D604AB71A33219D50701EB6AE0347B4BE9D</key>
 		<string>github.com:fqlhnx/iToolBox.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iToolBox/iToolBox.xcodeproj/project.xcworkspace</string>
+	<string>iToolBox/iToolBox.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3B787D604AB71A33219D50701EB6AE0347B4BE9D</key>

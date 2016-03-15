@@ -22,4 +22,6 @@
 
 + (UIImage *)imageFromMainBundleFile:(NSString*)fileName;
 
++ (UIImage *)itb_appLaunchImage;
+
 @end
